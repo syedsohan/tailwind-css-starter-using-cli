@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-css-starter",
+  "version": "1.0.0",
+  "description": "> **A starter template** for simplest and fastest way to get up and running with ***Tailwind CSS*** from scratch is with the **Tailwind CLI Tool**.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch -- npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedsohan/tailwind-css-starter.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-starter",
+    "tailwindcss-starter-template"
+  ],
+  "author": "Syed Sohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syedsohan/tailwind-css-starter/issues"
+  },
+  "homepage": "https://github.com/syedsohan/tailwind-css-starter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  }
+}
